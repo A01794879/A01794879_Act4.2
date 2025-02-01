@@ -1,6 +1,7 @@
 """
 Módulo convertNumbers.py
 """
+
 import sys
 import time
 
@@ -22,25 +23,41 @@ def leer_archivo(nombre_archivo):
     return numeros, errores
 
 def convertir_a_binario(numero):
-    """Función para convertir un número a binario"""    
-    binario = ""
+    """Función para convertir un número a binario (soporta negativos con complemento a dos)"""    
     if numero == 0:
         return "0"
+
+    es_negativo = numero < 0
+    numero = abs(numero)
+
+    binario = ""
     while numero > 0:
         binario = str(numero % 2) + binario
         numero //= 2
+
+    if es_negativo:
+        # Representación en complemento a dos con 8 bits mínimo (ajustable)
+        bits = max(8, len(binario) + 1)  # Asegura suficientes bits
+        binario = bin(int(binario, 2) ^ (2**bits - 1) + 1)[2:]  # Complemento a dos
+
     return binario
 
 def convertir_a_hexadecimal(numero):
-    """ Función para convertir un número a hexadecimal"""
-    hex_chars = "0123456789ABCDEF"
-    hexadecimal = ""
+    """Función para convertir un número a hexadecimal (incluye el signo negativo)"""
     if numero == 0:
         return "0"
+
+    es_negativo = numero < 0
+    numero = abs(numero)
+
+    hex_chars = "0123456789ABCDEF"
+    hexadecimal = ""
+
     while numero > 0:
         hexadecimal = hex_chars[numero % 16] + hexadecimal
         numero //= 16
-    return hexadecimal
+
+    return f"-{hexadecimal}" if es_negativo else hexadecimal
 
 
 def main():

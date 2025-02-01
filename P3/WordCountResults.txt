@@ -5452,3 +5452,33 @@ zen: 1
 Tiempo de ejecución: 0.002898 segundos
 
 
+Conteo de Palabras:
+Archivo analizado: TC6.txt
+computadora: 49
+código: 55
+hola: 55
+mundo: 51
+pantalla*: 56
+prueba: 47
+python: 58
+ratón_: 46
+teclado-: 35
+texto: 48
+Tiempo de ejecución: 0.000555 segundos
+
+
+Conteo de Palabras:
+Archivo analizado: TC7.txt
+computadora: 55
+código: 57
+hola: 50
+mundo: 45
+pantalla: 50
+prueba: 45
+python: 51
+ratón: 47
+teclado: 45
+texto: 55
+Tiempo de ejecución: 0.000503 segundos
+
+
