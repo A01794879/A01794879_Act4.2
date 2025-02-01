@@ -1,0 +1,83 @@
+Resultados Estadísticos:
+Archivo analizado: TC1.txt
+Media: 241.91228070175438
+Mediana: 239.0
+Moda: 393.0
+Varianza: 21086.30558853275
+Desviación estándar: 145.21124470416453
+Tiempo de ejecución: 0.000801 segundos
+
+Errores encontrados:
+Error: '405s' no es un número válido.
+
+
+Resultados Estadísticos:
+Archivo analizado: TC2.txt
+Media: 250.7840161861406
+Mediana: 247.0
+Moda: 230.0
+Varianza: 20785.369132479238
+Desviación estándar: 144.17131868884059
+Tiempo de ejecución: 0.003277 segundos
+
+
+Resultados Estadísticos:
+Archivo analizado: TC3.txt
+Media: 249.77621989860583
+Mediana: 249.0
+Moda: 94.0
+Varianza: 21117.27747316329
+Desviación estándar: 145.31784980917962
+Tiempo de ejecución: 0.009584 segundos
+
+
+Resultados Estadísticos:
+Archivo analizado: TC4.txt
+Media: 149.00267347908746
+Mediana: 147.75
+Moda: 123.75
+Varianza: 17007.920843018837
+Desviación estándar: 130.41441961308894
+Tiempo de ejecución: 0.008981 segundos
+
+
+Resultados Estadísticos:
+Archivo analizado: TC5.txt
+Media: 241.49511400651465
+Mediana: 241.0
+Moda: 393.0
+Varianza: 21160.021963097748
+Desviación estándar: 145.46484786056646
+Tiempo de ejecución: 0.004264 segundos
+
+Errores encontrados:
+Error: 'ABA' no es un número válido.
+Error: '23,45' no es un número válido.
+Error: '11;54' no es un número válido.
+Error: 'll' no es un número válido.
+
+
+Resultados Estadísticos:
+Archivo analizado: TC6.txt
+Media: 1.8790659927977473e+20
+Mediana: 1.88008049965543e+20
+Moda: 1.27620004531949e+20
+Varianza: 1.1530904699530647e+40
+Desviación estándar: 1.0738205017381e+20
+Tiempo de ejecución: 0.006991 segundos
+
+
+Resultados Estadísticos:
+Archivo analizado: TC7.txt
+Media: 2.474673954997149e+20
+Mediana: 2.4664097307429e+20
+Moda: 1.57638329490099e+20
+Varianza: 2.0910793147136484e+40
+Desviación estándar: 1.4460564700984703e+20
+Tiempo de ejecución: 0.012944 segundos
+
+Errores encontrados:
+Error: 'ABBA' no es un número válido.
+Error: 'ERROR' no es un número válido.
+
+
